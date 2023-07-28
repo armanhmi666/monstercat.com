@@ -1,0 +1,1402 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url(https://cdn.monstercat.com/background-tile.webp);
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+  
+}
+.poster{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(180deg, black 50%, transparent 100%);
+/* background-image:linear-gradient(180deg, black 50%, transparent 100%) ; */
+}
+header{
+    max-width: 1500px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.point{
+    background-image:url(fire.webp) ; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1%;
+    left: -1%;
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px) brightness(38%);
+    z-index: -1;
+}
+.nav-cont{
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+ .navbaar{ 
+    display: flex;
+    width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 22px;
+    position: fixed;
+    height: 600px;
+ }  
+ .first-nav{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+ }
+ .first-nav img{
+     width: 50px;
+      
+ }
+ .second-nav ul{
+    font-size: 18px;
+    list-style: none;
+     align-items: center;
+     margin-top: 20px;
+     
+}
+.second-nav ul li{
+  margin-top: 30px;
+}
+
+ .last-nav{
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     
+  
+ }
+ .last-nav li{
+    list-style: none;
+    font-size: 23px;
+    padding-top: 15px;
+    margin-right: 15px;
+ }
+  
+ 
+.fa-solid{
+    color: white;
+ } 
+ .monsterpic { 
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    
+}
+.firepic{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: -60px;
+   
+}
+.firepic img{
+    width: 400px;
+    
+}
+.firepic p{
+    transform: rotate(270deg);
+    margin-left: -440px;
+    margin-top: -106%;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1px;
+}
+.inst{
+    color:#50A584;
+    font-weight: bold;
+}
+.allnew{
+    /* width: 400px; */
+    margin-top: 110px;
+}
+.allnew h1{
+    margin-top: 8px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e3dada;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+.allnew h2{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+.allnew button{
+    margin-top: 45px;
+    padding: 15px;
+}
+.play{
+    background-color: #50A584;
+    width: 200px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    word-spacing: 3px;
+}
+ .play:hover{
+    background-color: white;
+    color: black;
+}
+.share{
+    margin-left: 4px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.116);
+    color: white;
+    border: 1px solid white;
+}
+ 
+/* .share:hover{
+    background-color: white;
+    color: black;
+} */
+.fff{
+    margin-right: 5px;
+} 
+ .section1{
+    color: white;
+    max-width: 1500px;
+   margin-left: auto;
+   margin-right:auto ;
+   margin-top: 220px;
+}
+.new-way{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right:auto ;
+     font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    font-weight: 600;
+    font-family: "Monument Extended","Helvetica", Arial, sans-serif  ;
+}
+.players{
+    margin-top: 20px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.players ul{
+    display: flex;
+    /* border:2px solid white ; */
+    
+}
+.players ul li{
+    list-style-type: none;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 22px;
+    
+}
+.players ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: white;
+}
+.fa-regular{
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.regu{
+    margin-left: 5px;
+}
+.section2{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+.track{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 35px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+
+}
+.zero-trac{
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 25px;
+}
+.small{
+    display: flex;
+    margin-left: 7px;
+}
+.small a{
+    margin-left: 35px;
+}
+.small h3{
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.small .thecon{
+    margin-top: 15px;
+    margin-left: -150px;
+}
+.foult01{
+    margin-right: 20px;
+}
+.foult01 a{
+    color: #fff;
+    margin-left: 20px;
+}
+.one-trac{
+    display: flex;
+    justify-content: space-between;
+   max-width: 950px;
+   margin-left: auto;
+   margin-right: auto;
+    color: white;
+    margin-top: 25px;
+}
+.love{
+    display: flex;
+    margin-left: 7px;
+}
+.love a{
+    margin-left: 35px;
+}
+.love h3{
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.love .thecon{
+    margin-top: 15px;
+    margin-left: -160px;
+}
+.foult02{
+    margin-right: 20px;
+}
+.foult02 a{
+    color: #fff;
+    margin-left: 20px;
+}
+ 
+.two-trac{
+    display: flex;
+    justify-content: space-between;
+   max-width: 950px;
+   margin-left: auto;
+   margin-right: auto;
+    color: white;
+    margin-top: 25px;
+}
+.Therapy{
+    display: flex;
+    margin-left: 7px;
+}
+.Therapy a{
+    margin-left: 35px;
+}
+.Therapy h3{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.Therapy .thecon{
+    margin-top: 15px;
+    margin-left: -38%;
+}
+.foult03{
+    margin-right: 20px;
+}
+.foult03 a{
+    color: white;
+    margin-left: 20px;
+}
+ .three-track{
+     display: flex;
+     justify-content: space-between;
+     max-width: 950px;
+     margin-left: auto;
+     margin-right: auto;
+     color: #fff;
+     margin-top: 25px;
+ }
+ .fighter{
+     display: flex;
+     margin-left: 7px;
+ }
+ .fighter a{
+     margin-left: 35px;
+ }
+ .fighter h3{
+     margin-top: -5px;
+     margin-left: 15px;
+ }
+ .fighter .thecon{
+     margin-top: 15px;
+     margin-left: -75px;
+ }
+ .foult04{
+     margin-right: 20px;
+ }
+ .foult04 a{
+     color: #fff;
+     margin-left: 20px;
+ }
+.five{
+    max-width: 950px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin-top: 25px;
+
+}
+.wayup{
+    display: flex;
+    margin-left: 7px;
+}
+.wayup a{
+ margin-left: 35px;
+}
+.wayup h3{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.wayup .thecon{
+    margin-top: 15px; 
+    margin-left: -65px;
+}
+.fault{
+    margin-right: 20px;
+}
+.fault a{
+margin-left: 20px;
+    
+}
+.six{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 25px;
+}
+.waiting{
+    display: flex;
+    margin-left: 7px;
+}
+.waiting a{
+    margin-left: 35px;
+}
+.waiting h3{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.waiting .thecon{
+    margin-top: 15px;
+    margin-left: -65px;
+}
+.foult1{
+    margin-right: 20px;
+}
+.foult1 a{
+    margin-left: 20px;
+}
+.seven{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    color: #fff;
+}
+.dreaming{
+    display: flex;
+    margin-left: 7px;
+}
+.dreaming a{
+margin-left: 35px;
+}
+.dreaming h3{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.dreaming .thecon{
+    margin-top: 15px;
+    margin-left: -85px;
+}
+.foult2{
+    margin-right: 20px;
+}
+.foult2 a{
+    margin-left: 20px;
+}
+.eight{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 25px;
+}
+.tatto{
+    display: flex;
+    margin-left: 7px;
+}
+.tatto a {
+    margin-left: 35px;
+}
+.tatto h3{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.tatto .thecon{
+    margin-top: 15px;
+    margin-left: -40px;
+}
+.foult3{
+    margin-right: 20px;
+}
+.foult3 a{
+    margin-left: 20px;
+}
+.nine{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 25px;
+}
+.night{
+    display: flex;
+    margin-left: 7px;
+}
+.night a{
+    margin-left: 35px;
+}
+.night h3{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.night .thecon{
+    margin-top: 15px;
+    margin-left: -148px;
+}
+.foult4{
+    margin-right: 20px;
+
+}
+.foult4 a{
+    margin-left: 20px;
+}
+.tenth{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 25px;
+}
+.overdue{
+    display: flex;
+    margin-left: 7px;
+}
+.overdue a{
+    margin-left: 35px;
+}
+.overdue h3{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.overdue .thecon{
+    margin-top: 15px;
+    margin-left: -74px;
+}
+.foult5{
+    margin-right: 20px;
+}
+.foult5 a{
+    margin-left: 20px;
+}
+.eleven{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 25px;
+}
+.says{
+    display: flex;
+    margin-left: 7px;
+}
+.says a{
+    margin-left: 35px;
+}
+.says h3{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.says .thecon{
+    margin-top: 15px;
+    margin-left: -50px;
+}
+.foult6{
+    margin-right: 20px;
+}
+.foult6 a{
+margin-left: 20px;
+}
+.twelve{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 25px;
+}
+.stay{
+    display: flex;
+    margin-left: 7px;
+}
+.stay a{
+    margin-left: 35px;
+}
+.stay h3{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.stay .thecon{
+    margin-top: 15px;
+    margin-left: -110px;
+}
+.foult7{
+    margin-right: 20px;
+}
+.foult7 a{
+    margin-left: 20px;
+}
+.section3{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+ 
+}
+.music-vid{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+.music-vid h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+.thevideo{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/images/sddefault.webp);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+.thevideo iframe{
+    width: 950px;
+    height: 550px;
+   
+}
+.bottom{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border: 1px solid white;
+}
+.section4{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+.about{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.press{
+    width: 316px;
+    color: white;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+}
+.press h3{
+    margin-top: 10px;
+}
+.terms{
+    width: 316px;
+    color: #fff;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+}
+.terms h3{
+    margin-top: 10px;
+}
+.monstercat-news{
+    width: 316px;
+}
+.monstercat-news h3{
+    color: gray;
+    margin-top: 10px;
+}
+.monstercat-news p{
+    margin-top: 10px;
+    color: grey;
+    width: 280px;
+    letter-spacing: 1px;
+}
+.monstercat-news input{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:none;
+    border-radius: none;
+    background-color: rgba(0, 0, 0, 0.021);
+    font-size: 17px;
+    letter-spacing: 1px;
+    width: 260px;
+    border-bottom: 1px solid grey;
+}
+  .leftside{
+      margin-left: -30px;
+  }
+ .bottom2{
+     max-width: 950px;
+     margin-left: auto;
+     margin-right: auto;
+     border-bottom: 2px solid #fff;
+     margin-top: 40px;
+ }
+ .footer{
+     max-width: 1500px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+ }
+ .all-right{
+     max-width: 950px;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     justify-content: space-between;
+     color:#fff;
+     margin-top: 25px;
+ }
+ .all-right p{
+     color: gray;
+ }
+.paragraph{
+  
+    margin-top: 10px;
+}
+.all-icon{
+  
+    font-size: 12px;
+    
+}
+.all-icon a{
+    margin-right: 15px;
+}
+.gratitude{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+.unceded{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+.tata{
+    margin-top: 70px;
+}
+/* --------------media query for mobile------------- */
+
+@media only screen and (min-width: 320px) and (max-width: 580px) { 
+
+    .poster{
+        width: 100%;
+    }
+    .nav-cont{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 50px;
+        
+    }
+    .first-nav img{
+        width: 35px;
+       margin-top: -15px;
+       margin-left: 17px;
+       
+    }
+    .navbaar{
+        width: 98%;
+        
+    }
+    .second-nav ul{
+       display: none;
+    }
+    .last-nav{
+        
+        margin-top: -25px;
+       
+    }
+    .monsterpic{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .firepic{
+        display: flex;
+        flex-direction: column;
+      width: 100%;
+    }
+    .firepic img{
+        width: 360px;
+        height: auto;
+        margin-left: 75px;
+        margin-top: -150px;
+    }
+    .firepic p{
+        margin-left: 80px;
+        margin-top: 50px;
+        transform: rotate(360deg);
+        font-size: 13px;
+    }
+    .allnew{
+         padding-left: 20px;
+         margin-top: 20px;
+    }
+     .level h1{
+        font-size: 25px;
+        -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: unset;
+    -webkit-text-fill-color: unset;
+    color: #fff;
+    }
+    .level h2{
+        font-size: 25px;
+    }
+    .level button{
+        margin-top: 20px;
+       
+       
+    }
+     
+    .new-way{
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 20px;
+        margin-top: -130px;
+    }
+    .players{
+        width: 90%;
+        padding-left: 20px;
+    }
+    .players ul li {
+       padding: 8px;
+    }
+    .section2{
+        width: 100%;
+        font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    }
+    .track{
+        padding-left: 20px;
+        font-size: 13px;
+         padding-top: 20px;
+    }
+    .zero-trac{
+        width: 100%;
+    }
+    .small{
+        padding-left: 15px;
+    }
+    .small h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    .small .thecon{
+        font-size: 15px;
+         padding-left: 5px;
+    }
+    .foult01 a{
+         padding-right: 10px;
+    }
+    .one-trac{
+        width: 100%;
+    }
+    .love{
+        padding-left: 15px;
+    }
+    .love h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    .love .thecon{
+        padding-left: 5px;
+    }
+    .foult02{
+        padding-right: 10px;
+    }
+    .two-trac{
+        width: 100%;
+    }
+    .Therapy{
+        padding-left: 15px;
+    }
+    .Therapy h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    .Therapy .thecon{
+    padding-left: 2px;
+    }
+    .foult03 {
+        padding-right: 10px;
+    }
+    .three-track{
+        width: 100%;
+    }
+    .fighter{
+        padding-left: 15px;
+    }
+    .fighter h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px
+    }
+    .fighter .thecon{
+        padding-left: 5px;
+    }
+    .foult04{
+        padding-right: 10px;
+    }
+    .five{
+        width: 100%;
+    }
+    .wayup{
+        padding-left: 15px;
+    }
+    .wayup h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px
+    }
+    .wayup .thecon{
+        padding-right: 5px;
+    }
+    .fault{
+        padding-right:10px ;
+    }
+    .six{
+        width: 100%;
+    } 
+
+    .waiting{
+        padding-left: 15px;
+    }
+    .waiting h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px
+    }
+    .wayup .thecon{
+        padding-left: 6px;
+    }
+    .foult1{
+        padding-right: 10px;
+    }
+    .seven{
+        width: 100%;
+    }
+    .dreaming{
+        padding-left: 15px;
+    }
+    .dreaming h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px
+    }
+    .dreaming .thecon{
+        padding-left: 5px;
+    }
+    .foult2{
+        padding-right: 10px;
+    }
+    .eight{
+        width: 100%;
+    }
+    .tatto{
+        padding-left: 15px;
+    }
+    .tatto h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px
+    }
+     .foult3{
+        padding-right :10px; 
+    }
+    .nine{
+        width: 100%;
+    }
+    .night{
+        padding-left: 15px;
+    }
+    .night h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px
+    }
+    .night .thecon{
+        padding-left: 8px;
+    }
+    .foult4{
+        padding-right: 10px;
+    }
+    .tenth{
+        width: 100%;
+    }
+    .overdue{
+        padding-left: 10px;
+    }
+    .overdue h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px
+    }
+    .overdue .thecon{
+        padding-left: 3px;
+    }
+    .foult5{
+        padding-right: 10px;
+    }
+    .eleven{
+        width: 100%;
+    }
+    .says{
+        padding-left: 10px;
+    }
+    .says h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px
+    }
+    .says .thecon{
+        padding-left: 4px;
+    }
+    .foult6{
+        padding-right: 10px;
+    }
+    .twelve{
+        width: 100%;
+    }
+    .stay{
+        padding-left: 10px;
+    }
+    .stay  h3{
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px
+    }
+    .stay .thecon{
+        padding-left: 4px;
+    }
+    .foult7{
+        padding-right:10px ;
+    }
+    .music-vid h1{
+        font-size: 20px;
+          font-weight: 100;
+        padding-left: 20px;
+        word-spacing: 2px;
+    }
+    .thevideo{
+        display: block;
+        width: 100%;
+        background-image: none;
+    }
+    .thevideo iframe{
+        width: 360px;
+        height: 200px;
+        padding-left: 15px;
+        margin-bottom: 16px;
+    }
+    .bottom{
+        width: 360px;
+        border-bottom: gray;
+    }
+    .section4{
+        width: 90%;
+    }
+    .about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .press h3{
+        font-size: 15px;
+        word-spacing: 1px;
+        font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+
+    }
+    .terms h3{
+        font-size: 15px;
+        word-spacing: 1px;
+        font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    }
+    .monstercat-news{
+        margin-top: 40px;
+        font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    }
+    .monstercat-news p{
+        width: 300px;
+         
+    }
+     
+    .bottom2{
+        width: 360px;
+       border-bottom: 1px solid white;
+    }
+    .all-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraph{
+        padding-left: 10px;
+    }
+    .all-icon{
+        margin-top: 20px;
+       padding-left: 25px;
+       padding-right: 10px;
+       width: 90%;
+    }
+    .all-icon a{
+         line-height: 3;
+          
+    }
+    .gratitude{
+        width: 95%;
+        text-align: center;
+       
+    }
+
+} 
+/* ---------media query for ipad------- */
+@media  only screen  and (min-width:580px) and (max-width:1024px) {
+    .poster{
+        width: 100%;
+    }
+    .nav-cont{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 70px;
+        
+    }
+    .first-nav img{
+        width:50px;
+       margin-top: -15px;
+       margin-left: 17px;
+       
+    }
+    .navbaar{
+        width: 99%;
+        
+    }
+    .last-nav{
+        margin-top: -15px;
+    }
+    .second-nav ul{
+        display: flex;
+        margin-left: -500px;
+        margin-top: -50px;
+    }
+    .second-nav ul li{
+        margin-left: 25px;
+        
+    }
+    .second-nav ul li a i{
+        font-size: 18px;
+
+    }
+    .monsterpic{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .firepic img{
+        width:  710px;
+        height: auto;
+        padding-left: 95px;
+        margin-top: -80px;
+    }
+    .firepic p{
+        width: 100%;
+        margin-left: -118px;
+        margin-top: -210px;
+    }
+    .inst{
+        letter-spacing: 2px;
+    }
+    .allnew{
+        margin-bottom: 60px;
+    }
+    .level{
+        margin-top: 110px;
+        padding-left: 40px;
+    }
+    .section1{
+        width: 90%;
+        padding-left: 40px;
+        margin-top: 20px;
+        font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    }
+    .section2{
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 40px;
+        font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    }
+    .track h1{
+        font-size: 35px;
+        word-spacing: 8px;
+         
+    }
+    .zero-trac{
+        margin-top: 45px;
+    }
+    .small h3{
+        font-weight: lighter;
+    }
+    .small .thecon{
+        margin-left: -140px;
+    }
+    .one-trac{
+        margin-top: 35px;
+    }
+    .love h3{
+        font-weight: lighter;
+    }
+    .love .thecon{
+        margin-left: -150px;
+    }
+    .two-trac{
+        margin-top: 35px;
+    }
+    .Therapy h3{
+        font-weight: lighter;
+    }
+    .three-track{
+        margin-top: 35px;
+    }
+    .fighter h3{
+        font-weight: lighter;
+    }
+    .fighter .thecon{
+        margin-left: -65px;
+    }
+    .five{
+        margin-top: 35px;
+    }
+    .wayup h3{
+        font-weight: lighter;
+    }
+    .six{
+        margin-top: 35px;
+    }
+    .waiting h3{
+        font-weight: lighter;
+    }
+    .waiting .thecon{
+        margin-left: -60px;
+    }
+    .seven{
+        margin-top: 35px;
+    }
+    .dreaming h3{
+        font-weight: lighter;
+    }
+    .dreaming .thecon{
+        margin-left: -80px;
+    }
+    .eight{
+        margin-top: 35px;
+    }
+    .tatto h3{
+        font-weight: lighter;
+    }
+    .tatto .thecon{
+        margin-left: -37px;
+    }
+    .nine{
+        margin-top: 35px;
+    }
+    .night h3{
+        font-weight: lighter;
+    }
+    .night .thecon{
+        margin-left: -135px;
+    }
+    .tenth{
+        margin-top: 35px;
+    }
+    .overdue h3{
+        font-weight: lighter;
+    }
+    .overdue .thecon{
+        margin-left: -70px;
+    }
+    .eleven{
+        margin-top: 35px;
+    }
+    .says h3{
+        font-weight: lighter;
+    }
+    .says .thecon{
+        margin-left: -45px;
+    }
+    .twelve{
+        margin-top: 35px;
+    }
+    .stay h3{
+        font-weight:lighter;
+    }
+    .stay .thecon{
+        margin-left: -104px;
+    }
+    .section3{
+        width: 100%;
+        margin-top: 65px;
+    }
+    .music-vid{
+       padding-left: 40px;
+    }
+    .thevideo{
+        display: block;
+        width: 100%;
+        background-image: none;
+        margin-top: 0px;
+    }
+    .thevideo iframe{
+        width: 750px;
+        height: 500px;
+        padding-left: 35px;
+    }
+    .bottom, .bottom2{
+        width: 90%;
+    }
+    .section4{
+        width: 100%;
+    }
+    .about{
+        width: 90%;
+    }
+    .press{
+        width: 300px;
+        
+    }
+    .press :first-child{
+        line-height: 30px;
+    }
+     .terms h3{
+         width: 200px;
+         line-height: 28px;
+     }
+     .all-right{
+         width: 90%;
+     }
+     .all-icon{
+         line-height: 30px;
+     }
+     .gratitude{
+         width: 90%;
+         text-align: center;
+     }
+    
+
+
+
+    
+    
+    
+}
+ 
+    
